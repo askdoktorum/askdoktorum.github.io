@@ -8,6 +8,7 @@ html {
 body{
 	background-color: transparent;
 }
+
 .get-the-doctor {
 	display: block;
 	height: 200px;
@@ -70,7 +71,6 @@ a:hover,a:focus {
   	margin: 0 auto;
 }
 .alert {
-<%--			  	max-width: 300px;--%>
   	margin: 0 auto;
   	margin-bottom: 10px;
 }
