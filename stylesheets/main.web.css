@@ -8,6 +8,13 @@ html {
 body{
 	background-color: transparent;
 }
+.get-the-doctor {
+	display: block;
+	height: 200px;
+	overflow: hidden;
+	text-indent: -999px;
+	width: 185px;
+}
 .navbar-default {
 	background-color: #FE4365;
 	border-color: #E83D5C;
