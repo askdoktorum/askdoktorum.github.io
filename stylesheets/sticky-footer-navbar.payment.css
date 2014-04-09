@@ -8,15 +8,15 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 30px;
 }
-#footer {
+#footersticky {
   position: absolute;
+  left: 0;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
   background-color: #f5f5f5;
 }
-
 
 /* Custom page CSS
 -------------------------------------------------- */
@@ -29,7 +29,7 @@ body > .container {
   margin: 20px 0;
 }
 
-#footer > .container {
+#footersticky > .container {
   padding-right: 15px;
   padding-left: 15px;
 }
