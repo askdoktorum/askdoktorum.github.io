@@ -9,6 +9,46 @@ body{
 	background-color: transparent;
 }
 
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 30px;
+}
+#footersticky {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 0 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footersticky > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
 .get-the-app a.app-store {
 	background: url("http://dl.dropboxusercontent.com/s/ryftwm5q01egr52/appstore-icon.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
