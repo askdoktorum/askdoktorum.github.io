@@ -9,6 +9,24 @@ body{
 	background-color: transparent;
 }
 
+.prevLink {
+	font-size: 100%;
+}
+
+.currentStep {
+	padding: 5px;
+	font-size: 120%;
+}
+
+.step {
+	padding: 5px;
+	font-size: 100%;
+}
+
+.nextLink {
+	font-size: 100%;
+}
+
 .get-the-doctor {
 	display: block;
 	height: 200px;
